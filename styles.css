@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    font-family: inherit;
+    background-color: white;
+    font-size: 1.8rem;
+}
+
+button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.label {
+    font-size: 1.8rem;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 4rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.check-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.grid-container {
+    display: grid;
+    width: 60rem;
+    height: 60rem;
+    margin: 0 auto;
+}
+
+.cell {
+    border: 1px solid black;
+}
