@@ -76,7 +76,6 @@ function getRandomColor() {
 buttonNewGrid.addEventListener('click', () => {
     let input = prompt("Enter a number between 16 and 32:");
     if (input >= 16 && input <= 32) {
-        fullGrid.innerHTML = "";
         createGrid(input);
     } else {
         prompt("Invalid input.");
